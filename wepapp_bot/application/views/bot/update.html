@@ -1,0 +1,17 @@
+$def with(datos)
+<a href="/"><h1>Update</h1></a>
+
+<form method="POST">
+    <div class="form-group" style="width: 80%;margin: auto;">
+        <label for="nombre">Nombre del Tip</label>
+        <input  class="form-control form-control-sm" type="text" value="$datos.tip_de" id="tip_de" name="tip_de" >
+        <br>
+        <label for="edad">Tip</label>
+        <input  class="form-control form-control-sm" type="text" value="$datos.tip" id="tip" name="tip" >
+        <br>
+        <label for="email">Tiempo</label>
+        <input  type="text" class="form-control" value="$datos.tiempo" id="tiempo" name="tiempo">
+        <br>
+        <button  class="btn btn-primary btn-lg btn-block" type="submit" class="btn btn-primary">Update</button>
+    </div>
+</form>

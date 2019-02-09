@@ -1,0 +1,30 @@
+body {
+    background-image: url(/static/images/58e920c4eb97430e81906513.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 305;
+    font-size: 50px;
+	position: absolute;
+    top: 75%;
+    margin-top: 23px;
+	right: 0;
+    left: 0;
+    font-weight: bold;
+}
+ 
+.mensaje{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 305;
+    font-size: 50px;
+	position: absolute;
+	top: 65%;
+	right: 0;
+    left: 0; 
+    font-weight: bold;
+
+}
